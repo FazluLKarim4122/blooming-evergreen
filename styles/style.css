@@ -1,0 +1,121 @@
+/* Font Style */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,600;0,700;0,800;1,400&display=swap');
+
+/* Shared Style */
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+span{
+    color: #FF5400;
+    font-family: Mulish;
+}
+
+.button-primary{
+    padding: 16px 35px;
+    width: 174px;
+height: 52px;
+color: #FFF;
+font-size: 14px ;
+border-radius: 8px;
+background: #FF5400;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+gap: 5px;
+}
+
+
+/* header section started */
+.header{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    display: flex;
+    gap: 16px;
+}
+
+.nav-title .title{
+    color: #131318;
+font-size: 36px;
+font-weight: 800;
+}
+
+.nav-link ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 44px;
+}
+
+.nav-link ul li{
+    list-style: none;
+    color: #424247;
+font-size: 18px;
+font-weight: 400;
+}
+
+.banner-container{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/banner-image.png') ;
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    ------background-: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+.banner-title{
+    color: #FFF;
+font-family: Mulish;
+font-size: 64px;
+font-weight: 800;
+margin-bottom: 24px;
+}
+
+.banner-description{
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 48px;
+}
+
+.banner-input{
+    border: 1px solid rgba(255, 255, 255, 0.30) ;
+    border-radius: 8px;
+    padding: 24px;
+    display: inline-flex;
+    gap: 24px;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+
+}
+
+.banner-input input{
+    padding: 0.675em 4em 0.675em 1em;
+    width: 174px;
+height: 52px;
+color: rgba(19, 19, 24, 0.50);
+font-size: 16px ;
+border-radius: 8px;
+}
+
+
+select{
+    padding: 14px 14px;
+    width: 174px;
+height: 52px;
+color: rgba(19, 19, 24, 0.50);
+font-size: 16px ;
+border-radius: 8px;
+}
