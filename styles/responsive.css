@@ -3,22 +3,34 @@
         max-width: 330px;
         
     }
+
+    .header {
+        max-width: 330px;
+    }
+
     .nav-container {}
 
     .nav-title {
         display: inline-flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        display: none;
+        display: ;
+        gap: 3px;
+
     }
 
     .nav-title .title {
-        font-size: 21.543px;
+        font-size: 17px;
     }
 
     .nav-title img {
         width: 28.724px;
         height: 33.516px;
+    }
+
+    .burger-icon{
+        display: flex;
+        
     }
 
     .nav-link ul {
@@ -144,6 +156,16 @@
 /* footer section */
 footer{
     max-width: 335px;
+    /* max-height: 309px; */
+    /* margin: 0 auto; */
+    /* padding: 40px; */
+}
+
+.footer-logo{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 16px;
 }
 
 .footer-logo img{
@@ -160,8 +182,18 @@ height: 33.516px;
 }
 
 .footer-description{
-    font-size: 14px;
+    font-size: 16px;
+    /* padding: 10px; */
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
+
+.rights{
+    margin-bottom: 35px;
+}
+
 
 
 
