@@ -1,5 +1,8 @@
 @media screen and (max-width: 600px) {
-
+    main{
+        max-width: 330px;
+        
+    }
     .nav-container {}
 
     .nav-title {
@@ -48,7 +51,9 @@
     }
 
     .tours-details {
-        padding: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        /* margin: 100px; */
     }
 
     .tours-container .tours-details #tours-title {
@@ -63,7 +68,7 @@
     .tours-image img {
         width: 335px;
         height: 342px;
-        margin-right: 200px;
+        /* margin-right: 200px; */
     }
 
 
@@ -88,9 +93,44 @@
         padding: 14px;
     }
 
+    .image-container .image img{
+        max-width: 335px;
+    }
 
+    /* choose us section */
+    .title{
+        font-size: 20px;
+    }
+    .description{
+        font-size: 14px;
+    }
+    .choosing-card-container{
+        flex-direction: column;
+        
+    }
+    
+    .card-title{
+        font-size: 20px;
+    }
+    .card-description{
+        font-size: 14px;
+    }
 
-
+    .hotel-card{
+        max-width: 335px;
+        padding: 5px;
+        overflow: hidden;
+    }
+.service-card {
+    max-width: 335px;
+    padding: 5px;
+    overflow: hidden;
+}
+.price-card{
+    max-width: 335px;
+    padding: 5px;
+    overflow: hidden;
+}
 
 
 
