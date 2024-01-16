@@ -188,3 +188,117 @@ main{
 .tours-container .tours-details button{
     margin-top: 25px;
 }
+
+/* destination section started */
+
+.destination-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+.destination-container p{
+    margin-bottom: 20px;
+}
+
+/* destination image section */
+
+.first-image-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.first-image-div img{
+    width: 100%;
+}
+
+.second-image-div{
+    display: flex;
+    /* justify-content: space-between; */
+    /* flex: 1; */
+    /* align-items: center; */
+    /* display: grid; */
+    /* grid-template-columns: 20% 40% 20% ; */
+    /* grid-column-gap: 20px; */
+    gap: 24px;  
+    
+     
+}
+
+.second-image-div div{
+   /* white-space: none; */
+   /* width: 100%; */
+  
+}
+
+.second-image-div div img{
+    /* width: 460px; */
+    
+}
+
+.second-image-div div img .one{
+   
+
+}
+
+.second-image-div div img .two{
+    
+   
+}
+.second-image-div div img .three{
+    
+  
+}
+
+.third-image-div{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 24px;
+    margin-top: 24px;
+    
+}
+
+.third-image-div img .bangladesh{
+    
+    max-width: 473px;
+height: 300px;
+width: ;
+}
+
+.third-image-div img .bandarban{
+    max-width: 673px;
+}
+
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 24px;
+    width: ;
+    height: auto;
+    
+}
+
+.image{
+    position: relative;
+    text-align: center;
+  color: white;
+}
+
+.name{
+   
+   color: #FFF;
+text-align: center;
+font-size: 28px;
+font-weight: 800;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
