@@ -132,9 +132,36 @@
     overflow: hidden;
 }
 
+/* newsletter section */
+.newsletter-container{
+    flex-direction: column;
+}
+.newsletter-image img{
+    max-width: 335px;
+    padding-right: 10px;
+}
 
+/* footer section */
+footer{
+    max-width: 335px;
+}
 
+.footer-logo img{
+    width: 28.724px;
+height: 33.516px;
+}
 
+.footer-logo p span{
+    font-size: 21.543px;
+}
+
+#footer-title{
+    font-size: 21.543px;
+}
+
+.footer-description{
+    font-size: 14px;
+}
 
 
 
