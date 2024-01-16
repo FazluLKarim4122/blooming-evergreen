@@ -6,6 +6,7 @@
 
     .header {
         max-width: 330px;
+        
     }
 
     .nav-container {}
@@ -41,6 +42,7 @@
         background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/banner-image.png');
         background-size: 335px 483px;
         background-repeat: no-repeat;
+        margin-bottom: 10px;
     }
 
     .banner-title {
@@ -53,13 +55,26 @@
 
     .banner-input {
         flex-direction: column;
+        display: flex;
+
+padding: 16px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
     }
 
+/* main section */
+main{
+    margin-top: 15px;
+}
+
+
+    /* Tours section */
 
     .tours-container {
 
         flex-direction: column;
-
+        
     }
 
     .tours-details {
@@ -88,7 +103,7 @@
 
     .destination-container {
         flex-direction: column;
-
+        margin-top: 10px;
     }
 
     .destination-container p {
@@ -110,6 +125,12 @@
     }
 
     /* choose us section */
+
+    .choose-us-container {
+        margin-top: 10px;
+    }
+
+
     .title{
         font-size: 20px;
     }
@@ -123,24 +144,33 @@
     
     .card-title{
         font-size: 20px;
+        margin-bottom: 10px;
     }
     .card-description{
         font-size: 14px;
     }
 
+    .card-img{
+        margin-bottom: 10px ;
+    }
+    .card-img img{
+        width: 48px;
+height: 48px;
+    }
+
     .hotel-card{
         max-width: 335px;
-        padding: 5px;
+        padding: 20px;
         overflow: hidden;
     }
 .service-card {
     max-width: 335px;
-    padding: 5px;
+    padding: 20px;
     overflow: hidden;
 }
 .price-card{
     max-width: 335px;
-    padding: 5px;
+    padding: 20px;
     overflow: hidden;
 }
 
@@ -153,19 +183,51 @@
     padding-right: 10px;
 }
 
+.discount{
+    width: 214.023px;
+height: 79.268px;
+position: absolute;
+bottom: 35px;
+right: 20px;
+transform: rotate(-19.628deg);
+
+}
+
+.discount p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 15.854px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.discount h2{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 21.138px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+
+
 /* footer section */
+
 footer{
     max-width: 335px;
-    /* max-height: 309px; */
-    /* margin: 0 auto; */
-    /* padding: 40px; */
+    height: 309px;
+   
 }
 
 .footer-logo{
     display: inline-flex;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 16px;
+    margin-top: 10px;
+    margin-bottom: 6px;
 }
 
 .footer-logo img{
@@ -191,9 +253,12 @@ height: 33.516px;
 }
 
 .rights{
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
 }
 
+br{
+    display: none;
+}
 
 
 
