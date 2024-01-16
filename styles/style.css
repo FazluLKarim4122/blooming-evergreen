@@ -23,8 +23,34 @@ display: inline-flex;
 align-items: center;
 justify-content: center;
 gap: 5px;
+border: none;
 }
 
+.btn-primary{
+    padding: 16px auto;
+    width: 174px;
+height: 52px;
+color: #FFF;
+font-size: 20px ;
+border-radius: 8px;
+background: #FF5400;
+font-weight: 800;
+border: none;
+}
+
+.title{
+    color: #131318;
+    /* text-align: center; */
+    font-size: 40px;
+    font-weight: 800;
+    }
+
+.description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    
+}
 
 /* header section started */
 .header{
@@ -71,7 +97,7 @@ font-weight: 400;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    ------background-: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    
 }
 
 .banner-title{
@@ -118,4 +144,47 @@ height: 52px;
 color: rgba(19, 19, 24, 0.50);
 font-size: 16px ;
 border-radius: 8px;
+}
+
+/* main section started */
+main{
+    max-width: 1440px;
+    margin: 100px auto;
+}
+
+.tours-container{
+    display: inline-flex;
+    justify-content: center;
+    gap: 53px;
+    align-items: center;
+   
+    
+}
+
+.tours-container .tours-details #tours-title{
+    margin-bottom: 15px;
+}
+
+.tours-container .tours-details .description{
+    margin-top: 20px;
+}
+
+.tours-container .tours-details ul li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px;
+    
+}
+
+.tours-container .tours-image img{
+    /* max-width: 540px;
+    max-height: 550px; */
+    /* height: 100%;
+    width: 100%; */
+       
+}
+
+.tours-container .tours-details button{
+    margin-top: 25px;
 }
