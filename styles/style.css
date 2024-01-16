@@ -54,7 +54,7 @@ border: none;
 
 /* header section started */
 .header{
-    max-width: 1440px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 
@@ -148,7 +148,7 @@ border-radius: 8px;
 
 /* main section started */
 main{
-    max-width: 1440px;
+    max-width: 1170px;
     margin: 100px auto;
 }
 
@@ -186,7 +186,7 @@ main{
 }
 
 .tours-container .tours-details button{
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 /* destination section started */
@@ -205,74 +205,6 @@ main{
 }
 
 /* destination image section */
-
-.first-image-div{
-    display: flex;
-    justify-content: space-between;
-    gap: 24px;
-    margin-bottom: 24px;
-}
-
-.first-image-div img{
-    width: 100%;
-}
-
-.second-image-div{
-    display: flex;
-    /* justify-content: space-between; */
-    /* flex: 1; */
-    /* align-items: center; */
-    /* display: grid; */
-    /* grid-template-columns: 20% 40% 20% ; */
-    /* grid-column-gap: 20px; */
-    gap: 24px;  
-    
-     
-}
-
-.second-image-div div{
-   /* white-space: none; */
-   /* width: 100%; */
-  
-}
-
-.second-image-div div img{
-    /* width: 460px; */
-    
-}
-
-.second-image-div div img .one{
-   
-
-}
-
-.second-image-div div img .two{
-    
-   
-}
-.second-image-div div img .three{
-    
-  
-}
-
-.third-image-div{
-    display: flex;
-    /* justify-content: space-between; */
-    gap: 24px;
-    margin-top: 24px;
-    
-}
-
-.third-image-div img .bangladesh{
-    
-    max-width: 473px;
-height: 300px;
-width: ;
-}
-
-.third-image-div img .bandarban{
-    max-width: 673px;
-}
 
 .image-container{
     display: flex;
@@ -301,4 +233,89 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
+}
+
+/* Choose us Section */
+
+.choose-us-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    text-align: center;
+
+}
+
+.choose-us-container p{
+    margin-bottom: 16px;
+}
+
+/* Card section  */
+
+.choosing-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.card-img{
+    margin-bottom: 20px;
+}
+
+.card-title{
+    color: #131318;
+    
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 20px ;
+}
+
+.card-description{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-: px ;
+}
+
+.hotel-card{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+height: 284px;
+padding: 32px 52px 32px 32px ;
+
+}
+
+.service-card{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 573px;
+height: 284px;
+padding: 32px 52px 32px 32px ;
+
+}
+
+.last-card-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.price-card{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+height: 284px;
+padding: 32px 52px 32px 32px ;
 }
