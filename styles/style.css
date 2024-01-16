@@ -2,94 +2,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,600;0,700;0,800;1,400&display=swap');
 
 /* Shared Style */
-*{
+* {
     font-family: 'Mulish', sans-serif;
 }
 
-span{
+span {
     color: #FF5400;
     font-family: Mulish;
 }
 
-.button-primary{
+.button-primary {
     padding: 16px 35px;
     width: 174px;
-height: 52px;
-color: #FFF;
-font-size: 14px ;
-border-radius: 8px;
-background: #FF5400;
-display: inline-flex;
-align-items: center;
-justify-content: center;
-gap: 5px;
-border: none;
+    height: 52px;
+    color: #FFF;
+    font-size: 14px;
+    border-radius: 8px;
+    background: #FF5400;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: none;
 }
 
-.btn-primary{
+.btn-primary {
     padding: 16px auto;
     width: 174px;
-height: 52px;
-color: #FFF;
-font-size: 20px ;
-border-radius: 8px;
-background: #FF5400;
-font-weight: 800;
-border: none;
+    height: 52px;
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 8px;
+    background: #FF5400;
+    font-weight: 800;
+    border: none;
 }
 
-.title{
+.title {
     color: #131318;
     /* text-align: center; */
     font-size: 40px;
     font-weight: 800;
-    }
+}
 
-.description{
+.description {
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
-    
+
 }
 
 /* header section started */
-.header{
+.header {
     max-width: 1170px;
     margin: 0 auto;
 }
 
-.nav-container{
+.nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-title{
+.nav-title {
     display: flex;
     gap: 16px;
 }
 
-.nav-title .title{
+.nav-title .title {
     color: #131318;
-font-size: 36px;
-font-weight: 800;
+    font-size: 36px;
+    font-weight: 800;
 }
 
-.nav-link ul{
+.nav-link ul {
     display: flex;
     justify-content: space-between;
     gap: 44px;
 }
 
-.nav-link ul li{
+.nav-link ul li {
     list-style: none;
     color: #424247;
-font-size: 18px;
-font-weight: 400;
+    font-size: 18px;
+    font-weight: 400;
 }
 
-.banner-container{
-    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/banner-image.png') ;
+.banner-container {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/banner-image.png');
     background-size: 100% 100%;
     background-position: center center;
     height: 550px;
@@ -97,101 +97,101 @@ font-weight: 400;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.banner-title{
+.banner-title {
     color: #FFF;
-font-family: Mulish;
-font-size: 64px;
-font-weight: 800;
-margin-bottom: 24px;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 24px;
 }
 
-.banner-description{
+.banner-description {
     color: #FFF;
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-margin-bottom: 48px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
 }
 
-.banner-input{
-    border: 1px solid rgba(255, 255, 255, 0.30) ;
+.banner-input {
+    border: 1px solid rgba(255, 255, 255, 0.30);
     border-radius: 8px;
     padding: 24px;
     display: inline-flex;
     gap: 24px;
     border-radius: 8px;
-background: rgba(255, 255, 255, 0.30);
+    background: rgba(255, 255, 255, 0.30);
 
 }
 
-.banner-input input{
+.banner-input input {
     padding: 0.675em 4em 0.675em 1em;
     width: 174px;
-height: 52px;
-color: rgba(19, 19, 24, 0.50);
-font-size: 16px ;
-border-radius: 8px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    border-radius: 8px;
 }
 
 
-select{
+select {
     padding: 14px 14px;
     width: 174px;
-height: 52px;
-color: rgba(19, 19, 24, 0.50);
-font-size: 16px ;
-border-radius: 8px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    border-radius: 8px;
 }
 
 /* main section started */
-main{
+main {
     max-width: 1170px;
     margin: 100px auto;
 }
 
-.tours-container{
+.tours-container {
     display: inline-flex;
     justify-content: center;
     gap: 53px;
     align-items: center;
-   
-    
+
+
 }
 
-.tours-container .tours-details #tours-title{
+.tours-container .tours-details #tours-title {
     margin-bottom: 15px;
 }
 
-.tours-container .tours-details .description{
+.tours-container .tours-details .description {
     margin-top: 20px;
 }
 
-.tours-container .tours-details ul li{
+.tours-container .tours-details ul li {
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
     padding: 16px;
-    
+
 }
 
-.tours-container .tours-image img{
+.tours-container .tours-image img {
     /* max-width: 540px;
     max-height: 550px; */
     /* height: 100%;
     width: 100%; */
-       
+
 }
 
-.tours-container .tours-details button{
+.tours-container .tours-details button {
     margin-top: 20px;
 }
 
 /* destination section started */
 
-.destination-container{
+.destination-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -200,13 +200,13 @@ main{
 
 }
 
-.destination-container p{
+.destination-container p {
     margin-bottom: 20px;
 }
 
 /* destination image section */
 
-.image-container{
+.image-container {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -214,30 +214,30 @@ main{
     margin-top: 24px;
     width: ;
     height: auto;
-    
+
 }
 
-.image{
+.image {
     position: relative;
     text-align: center;
-  color: white;
+    color: white;
 }
 
-.name{
-   
-   color: #FFF;
-text-align: center;
-font-size: 28px;
-font-weight: 800;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+.name {
+
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* Choose us Section */
 
-.choose-us-container{
+.choose-us-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -247,75 +247,213 @@ transform: translate(-50%, -50%);
 
 }
 
-.choose-us-container p{
+.choose-us-container p {
     margin-bottom: 16px;
 }
 
 /* Card section  */
 
-.choosing-card-container{
+.choosing-card-container {
     display: flex;
     justify-content: space-between;
     gap: 24px;
     margin-top: 48px;
 }
 
-.card-img{
+.card-img {
     margin-bottom: 20px;
 }
 
-.card-title{
+.card-title {
     color: #131318;
-    
+
     font-family: Mulish;
     font-size: 24px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    margin-bottom: 20px ;
+    margin-bottom: 20px;
 }
 
-.card-description{
+.card-description {
     color: #5A5A5D;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
-    margin-: px ;
+    line-height: 26px;
+    /* 162.5% */
+    margin-: px;
 }
 
-.hotel-card{
+.hotel-card {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     width: 573px;
-height: 284px;
-padding: 32px 52px 32px 32px ;
+    height: 284px;
+    padding: 32px 52px 32px 32px;
 
 }
 
-.service-card{
+.service-card {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
     width: 573px;
-height: 284px;
-padding: 32px 52px 32px 32px ;
+    height: 284px;
+    padding: 32px 52px 32px 32px;
 
 }
 
-.last-card-container{
+.last-card-container {
     display: flex;
     justify-content: center;
     margin-top: 24px;
 }
 
-.price-card{
+.price-card {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     width: 573px;
-height: 284px;
-padding: 32px 52px 32px 32px ;
+    height: 284px;
+    padding: 32px 52px 32px 32px;
+}
+
+/* Newsletter Section */
+
+.newsletter-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+    margin-top: 70px;
+
+
+}
+
+.newsletter {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 20px 40px 20px 40px;
+    /* border-width:474px; */
+    /* height: 422px; */
+
+}
+
+.news-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.news-description {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+hr {
+    border-color: rgba(19, 19, 24, 0.10);
+}
+
+.newsletter input {
+    width: 95%;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    padding: 16px 0 16px 20px;
+}
+
+.enter-name {}
+
+.enter-email {}
+
+.subscribe-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+}
+
+.newsletter-image {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.discount {
+    /* border-radius: 16px; */
+    /* background: #FF5400;  */
+    color: red;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#site {
+    /* color: #FFF;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400; */
+}
+
+#percentize {
+    /* color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800; */
+}
+
+
+/* Footer section started */
+
+.footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title{
+ display: inline-flex;
+ gap: 10px;
+ font-family: Mulish;
+font-size: 32px;
+font-weight: 800;
+padding-bottom: 10px;
+}
+.footer-description{
+    padding-top: 10px;
 }
